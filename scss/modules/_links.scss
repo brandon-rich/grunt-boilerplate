@@ -1,0 +1,19 @@
+/*-------------------------------------------------------*\
+    Links
+/*-------------------------------------------------------*/
+
+a,
+a:hover,
+button,
+button:hover { 
+    @include transition(all 0.3s ease-in-out);
+}
+
+a {
+    color: $text-link-color;
+    text-decoration: underline;
+    &:hover {
+        color: $brand-color-3;
+        text-decoration: none;
+    }
+}

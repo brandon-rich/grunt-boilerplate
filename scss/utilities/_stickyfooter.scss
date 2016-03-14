@@ -1,0 +1,41 @@
+/*-------------------------------------------------------*\
+    Sticky Footer
+/*-------------------------------------------------------*/
+/*
+$footer-height: 264px;
+$footer-height-tablet: 345px;
+$footer-height-mobile: 280px;
+
+html, body {
+	height: 100%;
+}
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -$footer-height; 
+}
+.wrapper:after {
+  content: "";
+  display: block;
+}
+.footer-container, .wrapper:after {
+  height: $footer-height; 
+}
+
+@media (max-width: 991px) {
+	.wrapper {
+	  margin-bottom: -$footer-height-tablet; 
+	}
+	.footer-container, .wrapper:after {
+	  height: $footer-height-tablet; 
+	}
+}
+
+@media (max-width: 767px) {
+	.wrapper {
+	  margin-bottom: -$footer-height-mobile; 
+	}
+	.footer-container, .wrapper:after {
+	  height: $footer-height-mobile; 
+	}
+}
+*/

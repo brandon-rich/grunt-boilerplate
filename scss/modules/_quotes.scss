@@ -1,0 +1,16 @@
+/*-------------------------------------------------------*\
+    Quotes
+/*-------------------------------------------------------*/
+
+// Blockquotes
+blockquote {
+	color: $brand-color-3;
+	font-size: 18px;
+	border: none;
+	line-height: 24px;
+	footer {
+		color: $text-color;
+		text-align: right;
+	}
+}
+// END Blockquotes

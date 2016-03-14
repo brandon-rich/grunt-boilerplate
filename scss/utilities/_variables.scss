@@ -1,0 +1,65 @@
+/*-------------------------------------------------------*\
+    Variables
+/*-------------------------------------------------------*/
+
+//== Colors
+//
+//## Colors for use across site.
+
+$text-color: #666666;
+$text-color-inverse: #fff;
+$text-link-color: #0082cb;
+$border-color: #adadad;
+$brand-color-1: #FFFFFF;
+$brand-color-2: #F0F0F0;
+$brand-color-3: #545454;
+$brand-color-4:	#696969;
+$brand-color-5: #666666;
+$brand-color-6: #d3d3d3;
+$brand-color-7: #a8a8a8;
+$brand-color-8:	#ededed;
+$accent-color: #d3d3d3;
+$accent-color-2: #444444;
+
+$white: #ffffff;
+$black: #000000;
+$gray: #999999;
+$green: #00cc00;
+$red: #ff0000;
+$darkblue: #324a57;
+
+
+//== Scaffolding
+//
+//## Settings for some of the most global styles.
+
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+
+// Font weights
+$light: 300;
+$regular: 400;
+$bold: 700;
+
+// Base Font
+$base-font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+$base-font-weight: $regular;
+$base-font-size: 14px;
+$base-line-height: 1.5;
+
+// Headings
+$header-font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+$header-font-weight: $bold;
+
+
+//== Buttons
+//
+//## For each of Bootstrap's buttons, define text, background and border color.
+
+
+//== Borders
+//
+//## Settings for angled borders
+$angle-border-height: 40px;

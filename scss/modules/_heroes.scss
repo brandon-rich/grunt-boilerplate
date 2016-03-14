@@ -1,0 +1,19 @@
+/*-------------------------------------------------------*\
+    Heroes
+/*-------------------------------------------------------*/
+
+.hero {
+	&-banner {
+		padding: 200px 0 0;
+		margin-bottom: 20px;
+  		@include bgimagecover($white, '../img/bgimage.jpg', center);
+	}
+	&-content {
+		padding: 0 0 100px;
+		color: $white;
+		h1 {
+			color: $white;
+			margin: 0;
+		}
+	}
+}

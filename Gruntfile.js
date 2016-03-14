@@ -20,7 +20,7 @@ module.exports = function(grunt) {
         tasks: ['assemble']
       },
       styles: {
-        files: ['dev/style.css'],
+        files: ['tmp/style.css'],
         tasks: ['postcss', 'copy'],
         options: {
           spawn: false,
@@ -35,7 +35,7 @@ module.exports = function(grunt) {
       },
       dev: {
         files: {
-          'dev/style.css' : 'scss/style.scss',
+          'tmp/style.css' : 'scss/style.scss',
           'www/css/bootstrap.css' : 'scss/bootstrap.scss'
         }
       }
@@ -50,14 +50,14 @@ module.exports = function(grunt) {
       },
       dist: {
         files: {
-          'www/css/style.css' : 'dev/style.css'
+          'www/css/style.css' : 'tmp/style.css'
         }
       }
     },
     // Copy style css map to www
     copy: {
       files: {
-        cwd: 'dev',
+        cwd: 'tmp',
         src: 'style.css.map',
         dest: 'www/css',
         expand: true

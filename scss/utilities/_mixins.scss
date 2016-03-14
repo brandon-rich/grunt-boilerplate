@@ -12,9 +12,6 @@
 
 @mixin bgimagecover($bgcolor, $imageurl, $bgposition) {
   background: $bgcolor url($imageurl) no-repeat scroll $bgposition;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 

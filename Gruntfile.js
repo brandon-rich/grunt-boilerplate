@@ -7,15 +7,15 @@ module.exports = function(grunt) {
       // Watch sass for changes
       sass: {
         files: [
-          'scss/*.scss',
-          'scss/**/*.scss'
+          'dev/scss/*.scss',
+          'dev/scss/**/*.scss'
           ],
         tasks: ['sass']
       },
       // Watch partials for changes
       assemble: {
         files: [
-          'assemble/**/*.hbs'
+          'dev/assemble/**/*.hbs'
           ],
         tasks: ['assemble']
       },
@@ -35,8 +35,8 @@ module.exports = function(grunt) {
       },
       dev: {
         files: {
-          'tmp/style.css' : 'scss/style.scss',
-          'www/css/bootstrap.css' : 'scss/bootstrap.scss'
+          'tmp/style.css' : 'dev/scss/style.scss',
+          'www/css/bootstrap.css' : 'dev/scss/bootstrap.scss'
         }
       }
     },
@@ -45,7 +45,7 @@ module.exports = function(grunt) {
       options: {
         map: true,
         processors: [
-          require('autoprefixer')({browsers: ['last 2 versions', 'ie 8']})
+          require('autoprefixer')({browsers: ['> 1%', 'last 2 versions', 'ie 8']})
         ]
       },
       dist: {
@@ -83,10 +83,10 @@ module.exports = function(grunt) {
     assemble: {
       options: {
         flatten: true,
-        partials: './assemble/modules/*.hbs'
+        partials: './dev/assemble/modules/*.hbs'
       },
       pages: {
-        src: 'assemble/pages/*.hbs',
+        src: 'dev/assemble/pages/*.hbs',
         dest: 'www/'
       }
     }

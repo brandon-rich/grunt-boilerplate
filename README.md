@@ -61,7 +61,7 @@ Once all the dependencies have been installed, a simple command of *grunt* will 
 Edit the HTML partials in the assemble directory and start styling in the scss directory. Your changes will be reflected in the www directory and the browser will reload automatically.
 
  
-## License
+##License
 
 Licensed under [The MIT License (MIT)](http://opensource.org/licenses/MIT)
 Copyright (c) 2016 Mike Lorey

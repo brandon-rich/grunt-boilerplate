@@ -15,7 +15,7 @@ module.exports = function(grunt) {
       // Watch partials for changes
       assemble: {
         files: [
-          'dev/assemble/**/*.hbs'
+          'dev/templates/**/*.hbs'
           ],
         tasks: ['assemble']
       },
@@ -83,10 +83,10 @@ module.exports = function(grunt) {
     assemble: {
       options: {
         flatten: true,
-        partials: './dev/assemble/modules/*.hbs'
+        partials: './dev/templates/modules/*.hbs'
       },
       pages: {
-        src: 'dev/assemble/pages/*.hbs',
+        src: 'dev/templates/pages/*.hbs',
         dest: 'www/'
       }
     }

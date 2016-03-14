@@ -5,7 +5,7 @@ A place for me to assemble all the things that might be needed for new front-end
 [Bootstrap](http://getbootstrap.com/), [Sass](http://sass-lang.com/), [jQuery](https://jquery.com/)
 
 HTML partials ([Assemble](http://assemble.io/), [Handlebars](http://handlebarsjs.com/)), [Grunt](http://gruntjs.com/), [libSass](http://sass-lang.com/libsass), [PostCSS](https://github.com/postcss), [Autoprefixer](https://github.com/postcss/autoprefixer) (to IE8), [Browsersync](https://www.browsersync.io/)
-3
+
 [bxSlider](http://bxslider.com/), [enquire.js](http://wicky.nillia.ms/enquire.js/), [Headroom](http://wicky.nillia.ms/headroom.js/), [Matchheight](http://brm.io/jquery-match-height-demo/), [Hamburgers](https://jonsuh.com/hamburgers/), [Wow](http://mynameismatthieu.com/WOW/), [Fontawesome](https://fortawesome.github.io/Font-Awesome/), [pixeden icon font pack](http://themes-pixeden.com/font-demos/7-stroke/)
 
 ##Using this repository

@@ -63,4 +63,5 @@ Edit the HTML partials in the assemble directory and start styling in the scss d
  
 ## License
 
-Copyright (c) 2015 @mdlorey
+Licensed under [The MIT License (MIT)](http://opensource.org/licenses/MIT)
+Copyright (c) 2016 Mike Lorey

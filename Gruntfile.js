@@ -99,7 +99,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-browser-sync');
   grunt.loadNpmTasks('assemble');
-  grunt.loadNpmTasks('grunt-newer' );
+  grunt.loadNpmTasks('grunt-newer');
 
   // register a default task.
   grunt.registerTask('default', ['newer:assemble', 'browserSync', 'watch']);

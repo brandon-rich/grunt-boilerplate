@@ -58,7 +58,7 @@ Once all the dependencies have been installed, a simple command of *grunt* will 
 
 ###Build
 
-Edit the HTML partials in the assemble directory and start styling in the scss directory. Your changes will be reflected in the www directory and the browser will reload automatically.
+Edit the HTML partials in the dev/templates directory and start styling in the dev/scss directory. Your changes will be reflected in the www directory and the browser will reload automatically.
 
  
 ##License

@@ -63,4 +63,4 @@ Edit the HTML partials in the assemble directory and start styling in the scss d
  
 ## License
 
-Copyright (c) 2015 @mdlorey# my-boilerplate
+Copyright (c) 2015 @mdlorey

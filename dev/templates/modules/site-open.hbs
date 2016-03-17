@@ -16,7 +16,8 @@
         {{#each stylesheets}}<link rel="stylesheet" href="{{url}}">
         {{/each}}
 
-        <script src="js/vendor/wow.min.js"></script>
+        {{#each js-head}}<script src="{{url}}" type="text/javascript"></script>
+        {{/each}}
         <script>
             new WOW().init();
         </script>

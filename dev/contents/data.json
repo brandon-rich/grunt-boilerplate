@@ -5,6 +5,9 @@
 		{ "url": "fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css"},
 		{ "url": "css/style.css"}
 	],
+	"js-head": [
+		{"url": "js/vendor/wow.min.js"}
+	],
 	"js-body": [
 		{ "url": "js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"},
 		{ "url": "js/vendor/jquery-1.11.2.min.js"},

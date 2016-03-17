@@ -1,15 +1,4 @@
-/*-------------------------------------------------------*\
-    Modernizr
-/*-------------------------------------------------------*/
-
-if(!Modernizr.svg) {
-
-    $('img[src*="svg"]').attr('src', function() {
-        return $(this).attr('src').replace('.svg', '.png');
-    });
-
-}
-
+// Set Headroom classes and offset
 $(document).ready(function() {
 	$(".navbar-fixed-top").headroom({
 	  "tolerance": 5,
@@ -24,6 +13,7 @@ $(document).ready(function() {
 	});
 });
 
+// Call the bxSlider
 $(document).ready(function(){
 	$('.bxslider').bxSlider({
         mode: 'fade',
@@ -35,14 +25,13 @@ $(document).ready(function(){
     Main
 /*-------------------------------------------------------*/
 
-/* Example of window resize function
+// Example of window resize function
 $(window).resize(function(){
   make the changes here...
 });
-*/
 
-// enquire.js
 
+// enquire.js example media query
 enquire.register("screen and (max-width: 767px)", {
     match : function() {
 

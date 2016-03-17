@@ -24,20 +24,11 @@ $(document).ready(function() {
 	});
 });
 
-/**
-* Reset angled border width
-*/
-
-$(document).ready(function() {
-	var wwidth = $(window).width();
-	$(".angle:not(.rev)").css("borderLeftWidth", wwidth);
-	$(".angle.rev").css("borderRightWidth", wwidth);
-});
-
-$(window).resize(function() {
-	var wwidth = $(window).width();
-	$(".angle:not(.rev)").css("borderLeftWidth", wwidth);
-	$(".angle.rev").css("borderRightWidth", wwidth);
+$(document).ready(function(){
+	$('.bxslider').bxSlider({
+        mode: 'fade',
+        controls: false
+    });
 });
 
 /*-------------------------------------------------------*\

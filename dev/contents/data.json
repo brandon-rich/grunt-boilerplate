@@ -1,0 +1,22 @@
+{
+	"stylesheets": [
+		{ "url": "css/bootstrap.css"},
+		{ "url": "css/vendor/jquery.bxslider.css"},
+		{ "url": "fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css"},
+		{ "url": "css/style.css"}
+	],
+	"js-body": [
+		{ "url": "js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"},
+		{ "url": "js/vendor/jquery-1.11.2.min.js"},
+		{ "url": "js/vendor/bootstrap.min.js"},
+		{ "url": "js/vendor/headroom.min.js"},
+		{ "url": "js/vendor/jQuery.headroom.min.js"},
+		{ "url": "js/vendor/jquery.matchHeight.js"},
+		{ "url": "js/vendor/enquire.min.js"},
+		{ "url": "js/plugins.js"},
+		{ "url": "js/main.js"},
+		{ "url": "js/vendor/jquery.bxslider.min.js"}
+	],
+
+	"site-title": "Grunt Boilerplate"
+}

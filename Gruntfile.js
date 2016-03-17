@@ -83,6 +83,7 @@ module.exports = function(grunt) {
     assemble: {
       options: {
         flatten: true,
+        data: './dev/contents/*.json',
         partials: './dev/templates/modules/*.hbs'
       },
       pages: {

@@ -15,6 +15,19 @@
   background-size: cover;
 }
 
+@mixin bgimageblend($bgcolor, $opacity, $imageurl, $bgposition) {
+  background-image: url($imageurl);
+  background-color: $bgcolor;
+  background-color: rgba($bgcolor,$opacity);
+  background-blend-mode: multiply;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: $bgposition;
+}
+
 @mixin gradient-over-img($gradient-from, $gradient-to, $opacity, $imageurl, $bgposition) {
     background: $gradient-from;
     background-image: url($imageurl);

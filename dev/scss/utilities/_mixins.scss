@@ -29,26 +29,44 @@
 }
 
 @mixin gradient-over-img($gradient-from, $gradient-to, $opacity, $imageurl, $bgposition) {
-    background: $gradient-from;
-    background-image: url($imageurl);
-    background-image: -webkit-gradient(linear, left top, left bottom, from($gradient-from), to($gradient-to));
-    background-image: -webkit-linear-gradient(top, rgba($gradient-from, $opacity), rgba($gradient-to, $opacity)), url($imageurl);
-    background-image: -moz-linear-gradient(top, rgba($gradient-from, $opacity), rgba($gradient-to, $opacity)), url($imageurl);
-    background-image: -ms-linear-gradient(top, rgba($gradient-from, $opacity), rgba($gradient-to, $opacity)), url($imageurl);
-    background-image: -o-linear-gradient(top, rgba($gradient-from, $opacity), rgba($gradient-to, $opacity)), url($imageurl);
-    background-image: linear-gradient(to bottom, rgba($gradient-from, $opacity), rgba($gradient-to, $opacity)), url($imageurl);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: $bgposition;
+  background: $gradient-from;
+  background-image: url($imageurl);
+  background-image: -webkit-gradient(linear, left top, left bottom, from($gradient-from), to($gradient-to));
+  background-image: -webkit-linear-gradient(top, rgba($gradient-from, $opacity), rgba($gradient-to, $opacity)), url($imageurl);
+  background-image: -moz-linear-gradient(top, rgba($gradient-from, $opacity), rgba($gradient-to, $opacity)), url($imageurl);
+  background-image: -ms-linear-gradient(top, rgba($gradient-from, $opacity), rgba($gradient-to, $opacity)), url($imageurl);
+  background-image: -o-linear-gradient(top, rgba($gradient-from, $opacity), rgba($gradient-to, $opacity)), url($imageurl);
+  background-image: linear-gradient(to bottom, rgba($gradient-from, $opacity), rgba($gradient-to, $opacity)), url($imageurl);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: $bgposition;
 }
 
+@mixin gradient-over-img-opacity($gradient-from, $gradient-to, $imageurl, $bgposition) {
+  background: $gradient-from;
+  background-image: url($imageurl);
+  background-image: -webkit-gradient(linear, left top, left bottom, from($gradient-from), to($gradient-to));
+  background-image: -webkit-linear-gradient(top, $gradient-from, $gradient-to), url($imageurl);
+  background-image: -moz-linear-gradient(top, $gradient-from, $gradient-to), url($imageurl);
+  background-image: -ms-linear-gradient(top, $gradient-from, $gradient-to), url($imageurl);
+  background-image: -o-linear-gradient(top, $gradient-from, $gradient-to), url($imageurl);
+  background-image: linear-gradient(to bottom, $gradient-from, $gradient-to), url($imageurl);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: $bgposition;
+}
+
+
 @mixin border-radius($radius) {
-    -moz-border-radius: $radius;
-    -webkit-border-radius: $radius;
-    border-radius: $radius;
+  -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
 }
 
 
